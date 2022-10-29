@@ -1,0 +1,41 @@
+PS C:\java\javaarithematic> git status
+On branch java
+nothing to commit, working tree clean
+PS C:\java\javaarithematic> git init -b main
+Initialized empty Git repository in C:/java/javaarithematic/.git/
+PS C:\java\javaarithematic> git add .
+warning: in the working copy of 'src/Main.java', LF will be replaced by CRLF the next time Git touches it
+PS C:\java\javaarithematic> git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .idea/.gitignore
+        new file:   .idea/misc.xml
+        new file:   .idea/modules.xml
+        new file:   java operator.iml
+        new file:   out/production/java operator/Arithematic.class
+        new file:   src/Main.java
+
+PS C:\java\javaarithematic> git commit -m "first commit"
+[main (root-commit) ce0567b] first commit
+ 6 files changed, 42 insertions(+)
+ create mode 100644 .idea/.gitignore
+ create mode 100644 .idea/misc.xml
+ create mode 100644 .idea/modules.xml
+ create mode 100644 java operator.iml
+ create mode 100644 out/production/java operator/Arithematic.class
+ create mode 100644 src/Main.java
+PS C:\java\javaarithematic> git remote add origin https://github.com/Rizwanahmad07/javaarithematic.git
+PS C:\java\javaarithematic> git push origin main
+Enumerating objects: 13, done.
+Counting objects: 100% (13/13), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (13/13), 2.16 KiB | 738.00 KiB/s, done.
+Total 13 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Rizwanahmad07/javaarithematic.git
+ * [new branch]      main -> main
+PS C:\java\javaarithematic>
